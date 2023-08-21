@@ -10,7 +10,7 @@ int FuncRand(int range1,int range2)
 	return Num+(range1);
 }
 //运用
-int mian()
+int main()
 {
   int randnum=FuncRand(0,101);//生成一个[0-100]的随机数
   printf("%d",randnum);
